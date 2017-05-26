@@ -1,0 +1,99 @@
+body {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/login-background.jpg");
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.logo {
+    width: 200px;
+    height: 170px;
+    margin: 50px auto;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #447EE0;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input[type='email'], input[type='password'] {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 60px;
+    outline: none;
+}
+
+.form-custom{
+    margin-bottom: 20px;
+}
+
+.login-block input#email {
+    background: url('../images/email.png') 20px center no-repeat;
+}
+
+.login-block input#email:focus {
+    background: url('../images/email-hover.png') 20px center no-repeat;
+}
+
+.login-block input#password {
+    background: url('../images/password.png') 20px center no-repeat;
+}
+
+.login-block input#password:focus {
+    background: url('../images/password-hover.png') 20px center no-repeat;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #447EE0;
+}
+
+.login-block input[type='submit'] {
+    width: 100%;
+    height: 40px;
+    background: #547EE0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #447EE0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login-block input[type='submit']:hover {
+    background: #547EE0;
+}
+
+.error-message {
+    margin-top: 10px;
+    text-align: center;
+}

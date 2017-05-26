@@ -1,0 +1,25 @@
+.card-top .data {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.card-img {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.card-body ul li:hover i {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.card-body ul li:hover {
+    background: linear-gradient(to right, #fff 15%, #CCD1D9);
+}
+
+.card-body ul li i {
+    cursor: pointer;
+    cursor: hand;
+}
